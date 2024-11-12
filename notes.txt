@@ -1,0 +1,16 @@
+https://github.com/hkvoluntary/11-11-python
+
+$Env:PATH += ';C:/Users/student/AppData/Local/Programs/Python/Python313;;C:/Users/student/AppData/Local/Programs/Python/Python313/Scripts'
+
+
+
+
+curl https://bootstrap.pypa.io/get-pip.py -o get-pip.py
+python get-pip.py
+$Env:PATH += ';C:/Users/student/AppData/Local/Programs/Python/Python313/Scripts'
+
+Get-ExecutionPolicy -List
+Get-ExecutionPolicy -Scope CurrentUser
+
+Set-ExecutionPolicy -Scope CurrentUser -ExecutionPolicy Unrestricted
+
